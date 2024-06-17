@@ -1,0 +1,37 @@
+[cursor]
+blink_interval = 200
+
+[cursor.style]
+blinking = "On"
+shape = "Block"
+
+[font]
+size = 15
+
+[font.bold]
+family = "Dejavu Sans Mono"
+style = "Bold"
+
+[font.bold_italic]
+family = "Dejavu Sans Mono"
+style = "Bold Italic"
+
+[font.italic]
+family = "Dejavu Sans Mono"
+style = "Italic"
+
+[font.normal]
+family = "Dejavu Sans Mono"
+style = "Regular"
+
+[scrolling]
+history = 50000
+
+[window]
+opacity = 1
+startup_mode = "Maximized"
+
+[colors]
+[colors.primary]
+foreground = "#d8d8d8"
+background = "#272626"
