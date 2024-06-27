@@ -1,8 +1,15 @@
+### While using in Fedora xfce worskstation-40 the binary for mimetype command is not found
+### hence it should be installed with 
+#   dnf install perl-File-MimeInfo
+
+
+
 #set ratios 1:3:3
 set ratios 2:2:7:7
 
 
 # Basic vars
+set shellopts '-eu'
 set ifs "\n"
 set info size:time
 set period 1
@@ -27,13 +34,8 @@ cmd open ${{
 }}
 
 cmd extract ${{
-	clear; tput cup $(($(tput lines)/3)); tput bold
 	set -f
-	printf "%s\n\t" "$fx"
-	printf "extract?[y/N]"
-	read -n1 ans
-	[ $ans = "y" ] && {
-		case $fx in
+	case $f in
 			*.tar.bz2)   tar xjf $fx     ;;
 			*.tar.gz)    tar xzf $fx     ;;
 			*.bz2)       bunzip2 $fx     ;;
@@ -52,7 +54,8 @@ cmd extract ${{
 
 
 map E extract
-map O $mimeopen --ask "$f"
+map o &mimeopen $f
+map O $mimeopen --ask $f
 map f $lf -remote "send $id select \"$(find . | fzf)\""
 map S shell
 map . calcdirsize
