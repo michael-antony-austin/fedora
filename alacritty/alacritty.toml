@@ -31,7 +31,148 @@ history = 50000
 opacity = 1
 startup_mode = "Maximized"
 
-[colors]
+
+
+## Normal color code
+
+#[colors]
+#[colors.primary]
+#foreground = "#d8d8d8"
+#background = "#272626"
+
+
+
+
+### ashes.dark color code
+#
+#[colors.primary]
+#background = "#1c2023"
+#foreground = "#c7ccd1"
+#[colors.normal]
+#black = "#1c2023"
+#red = "#c7ae95"
+#green = "#95c7ae"
+#yellow = "#aec795"
+#blue = "#ae95c7"
+#magenta = "#c795ae"
+#cyan = "#95aec7"
+#white = "#c7ccd1"
+#[colors.bright]
+#black = "#747c84"
+#red = "#c7ae95"
+#green = "#95c7ae"
+#yellow = "#aec795"
+#blue = "#ae95c7"
+#magenta = "#c795ae"
+#cyan = "#95aec7"
+#white = "#f3f4f5"
+
+
+
+
+## codeschool.dark
+
 [colors.primary]
-foreground = "#d8d8d8"
-background = "#272626"
+background = "#232c31"
+foreground = "#9ea7a6"
+[colors.normal]
+black = "#232c31"
+red = "#2a5491"
+green = "#237986"
+yellow = "#a03b1e"
+blue = "#484d79"
+magenta = "#c59820"
+cyan = "#b02f30"
+white = "#9ea7a6"
+[colors.bright]
+black = "#3f4944"
+red = "#2a5491"
+green = "#237986"
+yellow = "#a03b1e"
+blue = "#484d79"
+magenta = "#c59820"
+cyan = "#b02f30"
+white = "#b5d8f6"
+
+
+
+### embers dark 
+#
+#[colors.primary]
+#background = "#16130f"
+#foreground = "#a39a90"
+#[colors.normal]
+#black = "#16130f"
+#red = "#826d57"
+#green = "#57826d"
+#yellow = "#6d8257"
+#blue = "#6d5782"
+#magenta = "#82576d"
+#cyan = "#576d82"
+#white = "#a39a90"
+#[colors.bright]
+#black = "#5a5047"
+#red = "#826d57"
+#green = "#57826d"
+#yellow = "#6d8257"
+#blue = "#6d5782"
+#magenta = "#82576d"
+#cyan = "#576d82"
+#white = "#dbd6d1"
+
+
+
+### isotope dark
+#
+#[colors.primary]
+#background = "#000000"
+#foreground = "#d0d0d0"
+#[colors.normal]
+#black = "#000000"
+#red = "#ff0000"
+#green = "#33ff00"
+#yellow = "#ff0099"
+#blue = "#0066ff"
+#magenta = "#cc00ff"
+#cyan = "#00ffff"
+#white = "#d0d0d0"
+#[colors.bright]
+#black = "#808080"
+#red = "#ff0000"
+#green = "#33ff00"
+#yellow = "#ff0099"
+#blue = "#0066ff"
+#magenta = "#cc00ff"
+#cyan = "#00ffff"
+#white = "#ffffff"
+
+
+
+
+### Shape Shifter dark
+#
+#[colors.primary]
+#background = "#000000"
+#foreground = "#ababab"
+#[colors.normal]
+#black = "#000000"
+#red = "#e92f2f"
+#green = "#0ed839"
+#yellow = "#dddd13"
+#blue = "#3b48e3"
+#magenta = "#f996e2"
+#cyan = "#23edda"
+#white = "#ababab"
+#[colors.bright]
+#black = "#343434"
+#red = "#e92f2f"
+#green = "#0ed839"
+#yellow = "#dddd13"
+#blue = "#3b48e3"
+#magenta = "#f996e2"
+#cyan = "#23edda"
+#white = "#f9f9f9" 
+
+
+
+
