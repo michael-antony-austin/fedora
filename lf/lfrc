@@ -13,7 +13,7 @@ set shellopts '-eu'
 set ifs "\n"
 set info size:time
 set period 1
-
+set icons true
 cmd mkdir $mkdir -p "$@"
 
 cmd open ${{
