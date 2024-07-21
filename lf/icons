@@ -173,6 +173,17 @@ fi             # FILE
 *.rproj         󰗆
 *.sol           󰡪
 *.pem           
+*.csv           
+*.odt           󱔘
+*.ods           󱔘
+*.odp		󱔘
+*.docs		󱔘
+*.docx		󱔘
+*.xlsx		󱔘
+*.xls		󱔘
+*.ppt		󱔘
+*.pptx		󱔘
+
 
 # file names (vim-devicons) (case-insensitive not supported in lf)
 *gruntfile.coffee       
@@ -305,55 +316,55 @@ Vagrantfile             
 *.esd   
 
 # image formats (extensions from dircolors defaults)
-*.jpg   󰈥
-*.jpeg  󰈥
-*.mjpg  
-*.mjpeg 
+*.jpg   
+*.jpeg  
+*.mjpg  
+*.mjpeg 
 *.gif   󰵸
-*.bmp   
-*.pbm   
-*.pgm   
-*.ppm   
-*.tga   
-*.xbm   
-*.xpm   
-*.tif   
-*.tiff  
-*.png   󰸭
-*.svg   
-*.svgz  
-*.mng   
-*.pcx   
-*.mov   
-*.mpg   
-*.mpeg  
-*.m2v   
-*.mkv   
-*.webm  
-*.ogm   
-*.mp4   
-*.m4v   
-*.mp4v  
-*.vob   
-*.qt    
-*.nuv   
-*.wmv   
-*.asf   
-*.rm    
-*.rmvb  
-*.flc   
-*.avi   
-*.fli   
-*.flv   
-*.gl    
-*.dl    
-*.xcf   
-*.xwd   
-*.yuv   
-*.cgm   
-*.emf   
-*.ogv   
-*.ogx   
+*.bmp   
+*.pbm   
+*.pgm   
+*.ppm   
+*.tga   
+*.xbm   
+*.xpm   
+*.tif   
+*.tiff  
+*.png   
+*.svg   󰜡
+*.svgz  
+*.mng   
+*.pcx   
+*.mov   
+*.mpg   
+*.mpeg  
+*.m2v   
+*.mkv   
+*.webm  
+*.ogm   
+*.mp4   
+*.m4v   
+*.mp4v  
+*.vob   
+*.qt    
+*.nuv   
+*.wmv   
+*.asf   
+*.rm    
+*.rmvb  
+*.flc   
+*.avi   
+*.fli   
+*.flv   
+*.gl    
+*.dl    
+*.xcf   
+*.xwd   
+*.yuv   
+*.cgm   
+*.emf   
+*.ogv   
+*.ogx   
 
 # audio formats (extensions from dircolors defaults)
 *.aac   
@@ -374,4 +385,4 @@ Vagrantfile             
 *.xspf  
 
 # other formats
-*.pdf   󰈦
+*.pdf   
