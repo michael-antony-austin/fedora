@@ -1,10 +1,14 @@
 /*
- 
- * This is a configuraation file for Redpine theme 
- * along with some visibility tweaks for my computer
- 
-
- */
+ *
+ *
+ *
+    This is a config file for surfing keys with 
+    major tweak for surfing keys
+    with Redpine theme.
+ *
+ *
+ *
+ * */
 
 
 
@@ -38,7 +42,7 @@ settings.theme = `
     background: #1f1d2e;
   }
   .sk_theme .omnibar_highlight {
-    color: #403d52;
+    color: #eb6f92;
   }
   .sk_theme .omnibar_folder {
     color: #e0def4;
@@ -131,7 +135,7 @@ settings.theme = `
   }
   #sk_omnibarSearchResult>ul>li {
     padding: 0.2rem 0rem;
-    display: block;
+    display: flex;
     max-height: 600px;
     overflow-x: hidden;
     overflow-y: auto;
@@ -159,10 +163,12 @@ settings.theme = `
   }
   #sk_omnibarSearchResult li div.title {
     text-align: left;
+    color: #9ccfd8;
+    font-weight: bold;
   }
   #sk_omnibarSearchResult li div.url {
-    font-weight: bold;
     white-space: nowrap;
+    font-weight: normal;
   }
   #sk_omnibarSearchResult li.focused div.url {
     white-space: normal;
