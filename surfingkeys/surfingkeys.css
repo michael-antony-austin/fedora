@@ -1,3 +1,14 @@
+/*
+ 
+ * This is a configuraation file for Redpine theme 
+ * along with some visibility tweaks for my computer
+ 
+
+ */
+
+
+
+
 const hintsCss =
   "font-size: 12pt; font-family: 'JetBrains Mono NL', 'Cascadia Code', 'Helvetica Neue', Helvetica, Arial, sans-serif; border: 1px; color: #f6c177 !important; background: #31748f; background-color: #191724";
 
@@ -273,8 +284,9 @@ settings.theme = `
     top: -3rem;
     z-index: 2147483000;
     width: 80%;
-    border-radius: 0px 0px 4px 4px;
-    border: 1px solid #524f67;
+    border-radius: 8px 8px 8px 8px;
+    border: 2px solid #6e6a8;
+    color: #eb6f92;
     border-top-style: none;
     text-align: center;
     background: #191724;
@@ -297,7 +309,7 @@ settings.theme = `
     border-radius: 3px;
     padding: 10px 20px;
     margin: 5px;
-    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#191724), color-stop(100%,#191724));
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#191726), color-stop(100%,#191724));
     box-shadow: 0px 3px 7px 0px #21202e;
   }
   div.sk_tab_wrap {
@@ -314,7 +326,7 @@ settings.theme = `
     width: 150px;
     display: inline-block;
     vertical-align: middle;
-    font-size: 10pt;
+    font-size: 11pt;
     white-space: nowrap;
     text-overflow: ellipsis;
     overflow: hidden;
@@ -333,7 +345,7 @@ settings.theme = `
     float:right;
     font-size: 10pt;
     font-weight: bold;
-    padding: 0px 2px 0px 2px;
+    padding: 2px 2px 2px 2px;
     background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#191724), color-stop(100%,#191724));
     color: #f6c177;
     border: solid 1px #524f67;
