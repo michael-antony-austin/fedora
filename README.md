@@ -11,9 +11,8 @@
 - surfing keys
 - kitty
 - alacritty
-- fonts
-  1. Nerd Font
-
+- nerd font
+ 
   ---
   
 ### **Download it to your local directory**
