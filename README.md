@@ -11,7 +11,7 @@
 - surfing keys
 - kitty
 - alacritty
-- nerd font
+- nerd fonts
  
   ---
   
