@@ -3,7 +3,7 @@
 
 
 
-**Config Files**
+## **Config Files**
 
 - zshrc
 - lf
@@ -14,14 +14,19 @@
 - fonts
   1. Nerd Font
 
-  --------------------------------------------------
+  ---
   
-**Download it to your local directory**
+### **Download it to your local directory**
 
 
-*Dependencies*
+***Dependencies***
+
 *1. Terminal Emulator*
+
 *2. git*
+
+
+
   
 Linux: `git clone https://github.com/michael-antony-austin/fedora.git`
 
