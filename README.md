@@ -1,5 +1,5 @@
 # Fedora Dot-Files
-  * Thinkpad L490
+  > Thinkpad L490
 
 - zshrc
 - lf
