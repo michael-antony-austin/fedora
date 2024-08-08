@@ -1,5 +1,5 @@
 # Fedora Dot-Files
 
--zshrc
--lf
--mpv
+- zshrc
+- lf
+- mpv
