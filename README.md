@@ -28,6 +28,8 @@
 
 
   
-Linux: `git clone https://github.com/michael-antony-austin/fedora.git`
+Linux:
+
+`git clone https://github.com/michael-antony-austin/fedora.git`
 
 
