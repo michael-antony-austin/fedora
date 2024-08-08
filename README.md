@@ -19,9 +19,9 @@
 **Download it to your local directory**
 
 
-*Dependency*
-1. Terminal Emulator
-2. git
+*Dependencies*
+*1. Terminal Emulator*
+*2. git*
   
 Linux: `git clone https://github.com/michael-antony-austin/fedora.git`
 
