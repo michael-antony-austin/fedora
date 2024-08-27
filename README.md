@@ -13,7 +13,6 @@
 - alacritty
 - nerd fonts
 - xfce keyboard shortcuts
-- xfwm keyboard shortcuts
  
   ---
   
