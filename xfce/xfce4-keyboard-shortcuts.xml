@@ -1,3 +1,8 @@
+<!-- This is the path of the file
+/home/mike/.config/xfce4/xfconf/xfce-perchannel-xml/xfce4-keyboard-shortcuts.xml
+-->
+
+
 <?xml version="1.0" encoding="UTF-8"?>
 
 <channel name="xfce4-keyboard-shortcuts" version="1.0">
