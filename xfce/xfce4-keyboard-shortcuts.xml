@@ -1,8 +1,3 @@
-<!-- This is the path of the file
-/home/mike/.config/xfce4/xfconf/xfce-perchannel-xml/xfce4-keyboard-shortcuts.xml
--->
-
-
 <?xml version="1.0" encoding="UTF-8"?>
 
 <channel name="xfce4-keyboard-shortcuts" version="1.0">
@@ -77,6 +72,10 @@
       <property name="&lt;Super&gt;p" type="string" value="thunar"/>
       <property name="&lt;Primary&gt;&lt;Super&gt;p" type="string" value="pcmanfm"/>
       <property name="&lt;Super&gt;e" type="string" value="idle3"/>
+      <property name="&lt;Shift&gt;&lt;Super&gt;h" type="string" value="xfce4-terminal -x lf"/>
+      <property name="&lt;Primary&gt;&lt;Super&gt;h" type="string" value="kitty -e lf"/>
+      <property name="&lt;Shift&gt;&lt;Super&gt;e" type="string" value="codium"/>
+      <property name="&lt;Shift&gt;&lt;Super&gt;g" type="string" value="inkscape"/>
     </property>
   </property>
   <property name="xfwm4" type="empty">
