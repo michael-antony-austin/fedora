@@ -5,6 +5,7 @@
 
 ## **Config Files**
 
+- logos
 - zshrc
 - lf
 - mpv
