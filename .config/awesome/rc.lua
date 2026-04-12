@@ -862,6 +862,7 @@ awful.rules.rules = {
 	{ rule = { class = "Alacritty" }, properties = { floating = true, maximized = true } },
 	{ rule = { class = "libreoffice" }, properties = { floating = true, maximized = true } },
 	{ rule = { class = "Chromium" }, properties = { tag = "2" } },
+	{ rule = { class = "librewolf" }, properties = { maximized = true } },
 
 	{
 		rule_any = {

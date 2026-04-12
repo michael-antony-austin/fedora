@@ -58,6 +58,7 @@ alias vims="nvim ~/.aliasrc"
 alias vimeh="nvim ~/.config/helix/config.toml"
 alias yimage="yt-dlp --skip-download --write-thumbnail --convert-thumbnails jpg"
 alias diff="diff --color=always"
+alias ff='hx $(fzf)'
 
 ###############################################################################################################################################
 ##############################################################################################################################################
@@ -180,7 +181,7 @@ a4topdf() {
 mkvmetatitler() {
   [ "$#" -lt 1 ] && echo "Usage: mkvtitler titlenamefile" && return 1
 
-  paste <(printf '%s\n' ./*.mkv) "$1" | while IFS=$'\t' read -r vid titl; do
+  paste <(printf '%s\n' *.mkv) "$1" | while IFS=$'\t' read -r vid titl; do
     ffmpeg -hide_banner -loglevel info -nostdin -i "$vid" -metadata title="${vid%.mkv} $titl" -c copy "${vid%.mkv}.$titl.mkv"
   done
 }
