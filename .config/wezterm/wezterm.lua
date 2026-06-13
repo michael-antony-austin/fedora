@@ -10,13 +10,14 @@ local config = wezterm.config_builder()
 
 ---- Font ----
 -- config.font_size = 17 -- while using xfce
-config.font_size = 14.8
+config.font_size = 14.9
 
 config.font = wezterm.font_with_fallback({
 	{ family = "Iosevka SS07 Extended", weight = "Regular", scale = 1.07 },
 	{ family = "Iosevka Extended", weight = "Regular", scale = 1.07 },
 	{ family = "Iosevka Term Extended", weight = "Regular", scale = 1.07 },
 	{ family = "Iosevka", weight = "Regular", scale = 1.12 },
+  { family = "FantasqueSansM Nerd Font ", weight = "Regular", scale = 1.32 },
 	{ family = "CodeNewRoman Nerd Font", weight = "Regular", scale = 1.02 },
 	{ family = "FiraCode Nerd Font Ret", weight = "Regular", scale = 0.97 },
 	{ family = "RecMonoDuotone Nerd Font", weight = "Regular", scale = 1.05 },
@@ -27,8 +28,8 @@ config.font = wezterm.font_with_fallback({
 
 -- Font thickness
 config.front_end = "WebGpu"
-config.webgpu_power_preference = "LowPower"
--- config.webgpu_power_preference = "HighPerformance"
+-- config.webgpu_power_preference = "LowPower"
+config.webgpu_power_preference = "HighPerformance"
 
 ---- Cursor ----
 config.colors = {
@@ -36,7 +37,14 @@ config.colors = {
 	cursor_bg = "#00ff00",
 }
 
-config.default_cursor_style = "SteadyBar"
+
+
+
+config.default_cursor_style = "BlinkingBar"
+config.animation_fps = 1
+config.cursor_blink_rate = 250
+config.cursor_blink_ease_in = 'Constant'
+config.cursor_blink_ease_out = 'Constant'
 
 ---- Color Scheme ----
 -- config.color_scheme = 'VisiBone (terminal.sexy)'
@@ -57,10 +65,12 @@ config.default_cursor_style = "SteadyBar"
 -- config.color_scheme = 'NvimDark'
 -- config.color_scheme = 'MaterialDesignColors' -- lf
 -- config.color_scheme = "Mellifluous"
-config.color_scheme = "Mikado (terminal.sexy)"
+-- config.color_scheme = "Mikado (terminal.sexy)"
 -- config.color_scheme = 'Mona Lisa (Gogh)'
 -- config.color_scheme = 'Laserwave (Gogh)'
 -- config.color_scheme = 'Kanagawa (Gogh)'
+-- config.color_scheme = 'Helios (base16)'
+config.color_scheme = 'Hacktober'
 -- config.color_scheme = 'Glacier'
 -- config.color_scheme = 'GruvboxDarkHard'
 -- config.color_scheme = "Github Dark (Gogh)"

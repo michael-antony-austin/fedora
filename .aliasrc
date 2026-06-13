@@ -185,3 +185,23 @@ mkvmetatitler() {
     ffmpeg -hide_banner -loglevel info -nostdin -i "$vid" -metadata title="${vid%.mkv} $titl" -c copy "${vid%.mkv}.$titl.mkv"
   done
 }
+
+basser() {
+  [[ -n $ZSH_VERSION ]] && setopt local_options nullglob
+  [[ -n $BASH_VERSION ]] && shopt -s nullglob
+
+  for i in *.mp3 *.opus *.wav *.flac; do
+    [[ "$i" == wall_* ]] && continue
+    [ -f "$i" ] || continue
+    ffmpeg -hide_banner -i "$i" \
+      -loglevel warning \
+      -map 0:a \
+      -map_metadata -1 \
+      -af "bass=g=3:f=70:w=0.5,volume=3.0,acompressor=threshold=-12dB:ratio=2:attack=20:release=100,alimiter=level_in=1:level_out=0.95:limit=0.99" \
+      -c:a libopus \
+      -b:a 320k \
+      -y \
+      "bass_${i%.*}.opus"
+    echo "Processed: $i..."
+  done
+}

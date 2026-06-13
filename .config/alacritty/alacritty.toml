@@ -24,6 +24,7 @@ style = "Italic"
 family = "CodeNewRoman Nerd Font"
 style = "Regular"
 
+
 [scrolling]
 history = 50000
 

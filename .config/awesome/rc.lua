@@ -58,7 +58,7 @@ local awesome, client, root, screen = awesome, client, root, screen
 -- beautiful.init("/home/mike/.config/awesome/themes/xresources/theme.lua")
 beautiful.init("/home/mike/.config/awesome/theme.lua")
 
-beautiful.wallpaper = "/home/mike/Public/a_train_tracks_in_a_tunnel.jpg"
+beautiful.wallpaper = "/home/mike/Public/lowpoly_street.png"
 
 -- M. widgets
 local cpu_widget = require("mywidgets.cpu.cpu")
