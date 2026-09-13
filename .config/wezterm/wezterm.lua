@@ -13,6 +13,7 @@ local config = wezterm.config_builder()
 config.font_size = 14.9
 
 config.font = wezterm.font_with_fallback({
+	{ family = "AnnotationM NF", weight = "Regular", scale = 1.09 },
 	{ family = "Iosevka SS07 Extended", weight = "Regular", scale = 1.07 },
 	{ family = "Iosevka Extended", weight = "Regular", scale = 1.07 },
 	{ family = "Iosevka Term Extended", weight = "Regular", scale = 1.07 },
